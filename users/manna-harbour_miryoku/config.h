@@ -10,19 +10,13 @@
 #undef TAPPING_TERM
 #define TAPPING_TERM 200
 
+#define HOLD_ON_OTHER_KEY_PRESS
+
 // Prevent normal rollover on alphas from accidentally triggering mods.
 #define IGNORE_MOD_TAP_INTERRUPT
 
-// Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
-#define TAPPING_FORCE_HOLD
-
-// Auto Shift
-#define NO_AUTO_SHIFT_ALPHA
-#define AUTO_SHIFT_TIMEOUT TAPPING_TERM
-#define AUTO_SHIFT_NO_SETUP
-
 // Recommended for heavy chording.
-#define QMK_KEYS_PER_SCAN 4
+#define QMK_KEYS_PER_SCAN 6
 
 // Mouse key speed and acceleration.
 #undef MOUSEKEY_DELAY
